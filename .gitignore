@@ -36,3 +36,5 @@ Thumbs.db
 # Editor
 *.import
 *.godot.uid
+art_resources/
+terrain_sources/
