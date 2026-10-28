@@ -1,0 +1,45 @@
+{
+  "backend": "ComfyUI Qwen-Image 2.1 via workspace host watcher",
+  "title": "Music Pack",
+  "job_name": "new_mod_covers_20261028_01_music_pack",
+  "prompt": "Wide 1920x1024 landscape banner cover art for a fantasy game mod catalog. High-quality detailed painterly game illustration, cinematic warm amber and cool teal lighting, deep charcoal background, readable at small thumbnail size. One coherent composition, generous margins. Large clean elegant bold ivory title centered across the image, spell the title exactly. No other text, no logos, no watermark, no pseudo-lettering. An isometric view of an enchanted orchestral music box and a dark polished wooden gramophone on a stage, accompanied by flowing luminous golden musical notes and soft teal sound-wave ribbons. An evocative reusable fantasy soundtrack collection, subtle amber stage lighting, beautiful brass and wood textures, no people. The only lettering anywhere is the exact title \"Music Pack\".",
+  "negative_prompt": "blurry, low quality, pixel art, low resolution, watermark, logo, extra text, misspelled title, illegible lettering, cropped title, collage, contact sheet, multiple panels",
+  "job": {
+    "workflow": "comfy/workflows/qwen_txt2img_api.json",
+    "patch": {
+      "159.inputs.prompt": "Wide 1920x1024 landscape banner cover art for a fantasy game mod catalog. High-quality detailed painterly game illustration, cinematic warm amber and cool teal lighting, deep charcoal background, readable at small thumbnail size. One coherent composition, generous margins. Large clean elegant bold ivory title centered across the image, spell the title exactly. No other text, no logos, no watermark, no pseudo-lettering. An isometric view of an enchanted orchestral music box and a dark polished wooden gramophone on a stage, accompanied by flowing luminous golden musical notes and soft teal sound-wave ribbons. An evocative reusable fantasy soundtrack collection, subtle amber stage lighting, beautiful brass and wood textures, no people. The only lettering anywhere is the exact title \"Music Pack\".",
+      "159.inputs.negative_prompt": "blurry, low quality, pixel art, low resolution, watermark, logo, extra text, misspelled title, illegible lettering, cropped title, collage, contact sheet, multiple panels",
+      "16.inputs.seed": 281028511,
+      "16.inputs.steps": 25,
+      "184.inputs.strength_model": 0,
+      "193.inputs.width": 1920,
+      "193.inputs.height": 1024
+    },
+    "out": "gen/new_mod_covers_20261028_01/music_pack",
+    "timeout_sec": 1800
+  },
+  "result": {
+    "status": "ok",
+    "prompt_id": "8d9f3bec-63cb-4a42-995a-390d0d50b96e",
+    "seconds": 66,
+    "workflow": "comfy/workflows/qwen_txt2img_api.json",
+    "out": "gen/new_mod_covers_20261028_01/music_pack",
+    "files": [
+      "C:\\projects\\ai\\agents\\box\\workspace\\godotcthangover\\gen\\new_mod_covers_20261028_01\\music_pack\\new_mod_covers_20261028_01_music_pack__qwen_00201_.png"
+    ]
+  },
+  "source_file": "source.png",
+  "source_sha256": "381986d9f25255918de1448dadab5e16cfcde55afe2a405ce59eab1aa9e973be",
+  "source_size": [
+    1920,
+    1024
+  ],
+  "cover_file": "../../mod.jpg",
+  "cover_size": [
+    960,
+    512
+  ],
+  "cover_sha256": "e61150698dff58f09fb4aca16efefd0e12a29def54568409f5c44f63b445f0d3",
+  "processing": "Pillow ImageOps.fit LANCZOS, JPEG quality=92 subsampling=0",
+  "review": "Accepted after reviewing full-resolution generations and the thumbnail contact sheet."
+}
