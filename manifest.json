@@ -1,0 +1,9 @@
+{
+  "id": "music_pack",
+  "name": "Music Pack",
+  "version": "1.0.0",
+  "author": "ct",
+  "description": "Reusable soundtrack for any game: 22 Ogg Vorbis tracks with default exploration, combat and main menu playlists. Games can override playlists while keeping the shared track names.",
+  "category": "audio",
+  "depends": ["audio_base>=1"]
+}
