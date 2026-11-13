@@ -21,14 +21,14 @@
 ## 自分のゲームで使う
 
 1. `music_pack` とその依存関係 `audio_base` をインストールします。
-2. 自分のコンテンツ MOD の `manifest.json` にある既存の `depends` リストに `music_pack>=1` を追加します。
+2. 自分のコンテンツ MOD の `manifest.json` にある既存の `depends` リストに `music_pack>=0.1.0` を追加します。
 3. 付属のプレイリストを使うか、独自の選曲なら自分の MOD の `music/playlists/` ディレクトリに JSON ファイルを追加します。
 
 依存関係の例：
 
 ```jsonc
 // 既存のリストに依存関係を追加します：
-"depends": ["music_pack>=1"]
+"depends": ["music_pack>=0.1.0"]
 ```
 
 独自プレイリストの置き場所の例：

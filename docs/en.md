@@ -21,14 +21,14 @@ The pack is used by the main menu, Cthangover, the novel template and the projec
 ## Using it in your own game
 
 1. Install `music_pack` and its dependency, `audio_base`.
-2. Add `music_pack>=1` to the existing `depends` list in your content mod's `manifest.json`.
+2. Add `music_pack>=0.1.0` to the existing `depends` list in your content mod's `manifest.json`.
 3. Use the supplied playlists, or add a JSON file under your mod's `music/playlists/` directory for a custom selection.
 
 Dependency example:
 
 ```jsonc
 // Add the dependency to your existing list:
-"depends": ["music_pack>=1"]
+"depends": ["music_pack>=0.1.0"]
 ```
 
 Example location for a custom playlist:

@@ -21,14 +21,14 @@
 ## 在自己的游戏中使用
 
 1. 安装 `music_pack` 及其依赖 `audio_base`。
-2. 在内容模组 `manifest.json` 已有的 `depends` 列表中加入 `music_pack>=1`。
+2. 在内容模组 `manifest.json` 已有的 `depends` 列表中加入 `music_pack>=0.1.0`。
 3. 直接使用自带的播放列表，或者想自定义选曲时，在你模组的 `music/playlists/` 目录下添加一个 JSON 文件。
 
 依赖示例：
 
 ```jsonc
 // 把依赖加入已有的列表：
-"depends": ["music_pack>=1"]
+"depends": ["music_pack>=0.1.0"]
 ```
 
 自定义播放列表的存放位置示例：

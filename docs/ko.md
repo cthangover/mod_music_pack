@@ -21,14 +21,14 @@
 ## 내 게임에서 쓰기
 
 1. `music_pack`과 그 의존성인 `audio_base`를 설치합니다.
-2. 콘텐츠 모드의 `manifest.json`에 있는 기존 `depends` 목록에 `music_pack>=1`을 추가합니다.
+2. 콘텐츠 모드의 `manifest.json`에 있는 기존 `depends` 목록에 `music_pack>=0.1.0`을 추가합니다.
 3. 제공되는 재생 목록을 쓰거나, 직접 고른 곡을 쓰려면 자신의 모드의 `music/playlists/` 디렉터리에 JSON 파일을 추가합니다.
 
 의존성 예:
 
 ```jsonc
 // 기존 목록에 의존성을 추가합니다:
-"depends": ["music_pack>=1"]
+"depends": ["music_pack>=0.1.0"]
 ```
 
 자작 재생 목록의 위치 예:

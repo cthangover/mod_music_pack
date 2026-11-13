@@ -21,14 +21,14 @@ Gói này được menu chính, Cthangover, mẫu tiểu thuyết và các game 
 ## Dùng trong game của bạn
 
 1. Cài `music_pack` và phần phụ thuộc của nó, `audio_base`.
-2. Thêm `music_pack>=1` vào danh sách `depends` sẵn có trong `manifest.json` của mod nội dung.
+2. Thêm `music_pack>=0.1.0` vào danh sách `depends` sẵn có trong `manifest.json` của mod nội dung.
 3. Dùng các danh sách phát có sẵn, hoặc thêm một tệp JSON trong thư mục `music/playlists/` của mod nếu muốn tự chọn nhạc.
 
 Ví dụ về phụ thuộc:
 
 ```jsonc
 // Thêm phụ thuộc vào danh sách có sẵn:
-"depends": ["music_pack>=1"]
+"depends": ["music_pack>=0.1.0"]
 ```
 
 Vị trí ví dụ cho một danh sách phát riêng:
