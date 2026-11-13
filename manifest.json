@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "author": "ct",
   "description": "Shared music for any game: 22 tracks with exploration, combat and main menu playlists; a game can override playlists while keeping the track names.",
-  "category": "audio",
+  "categories": ["audio"],
   "depends": ["audio_base>=0.1.0"]
 }
